@@ -229,6 +229,11 @@ class Mol {
     //greenScore = 0;
     timer = '00:45';
     frame = 0;
+    molecules.splice(0, molecules.length)
+
+    location.reload();
+    
+  
 };
 
   c.addEventListener('mousemove', function (e){
