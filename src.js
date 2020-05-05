@@ -224,9 +224,6 @@ class Mol {
     gameover = false;
     score = 0;
     time = 45;
-    //blueScore = 0;
-    //redScore = 0;
-    //greenScore = 0;
     timer = '00:45';
     frame = 0;
     molecules.splice(0, molecules.length)
